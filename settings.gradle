@@ -1,0 +1,11 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)  // Allows project-level repositories if declared
+    repositories {
+        google()          // Google's Android libraries
+        mavenCentral()    // Central repository for Java/Kotlin libraries
+        // Removed jcenter() as it's shutting down
+    }
+}
+
+rootProject.name = "HM2"
+include ':app'
