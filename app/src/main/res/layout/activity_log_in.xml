@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInActivity">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="317dp"
+        android:layout_height="263dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/mindmate__2_" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="322dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/imageView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="322dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/buttonLogIn"
+        android:layout_width="314dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/untitled_design__4_"
+        android:text="LOGIN"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="314dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/buttonLogIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/untitled_design__4_"
+        android:text="REGISTER"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
