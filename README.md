@@ -1,4 +1,4 @@
-#MindMate - Mental Health Companion
+**MindMate - Mental Health Companion**
 MindMate is a mental health application designed to provide emotional support and mindfulness resources to users in need. The app integrates a chatbot for real-time conversation, soothing songs, and videos to promote mental well-being.
 
 Features
